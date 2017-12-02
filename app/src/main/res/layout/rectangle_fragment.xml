@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chk_box_rect"
+        android:checked="true"
+        android:id="@+id/chk_side"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rect_width"
+        android:inputType="number"
+        tools:ignore="LabelFor" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rect_height"
+        android:inputType="number"
+        tools:ignore="LabelFor" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rect_x"
+        android:inputType="number"
+        tools:ignore="LabelFor" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rect_y"
+        android:inputType="number"
+        tools:ignore="LabelFor" />
+    <include layout="@layout/result_btn"/>
+</LinearLayout>

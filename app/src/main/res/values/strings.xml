@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Figure</string>
+    <string name="change_figure">Change Figure</string>
+    <string name="calculate_p_s">Calculate</string>
+    <string-array name="figurelist">
+        <item>Rectangle</item>
+        <item>Circle</item>
+        <item>Trinagle</item>
+    </string-array>
+    <string name="error_input">Input Value?</string>
+    <string name="eror_create">Error Create Triangle</string>
+    <string name="input_one_side">Input one side</string>
+    <string name="input_two_side">Input two side</string>
+    <string name="input_three_side">Input three side</string>
+    <string name="input_radius">Input Radius</string>
+    <string name="input_width">Input width</string>
+    <string name="input_height">Input height</string>
+    <string name="chk_box_rect">On two sides</string>
+</resources>
